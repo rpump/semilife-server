@@ -2,7 +2,7 @@
 
 # TODO
 
-- Enities
+- Entities
   - Machine
     - Parts
 - Generators
@@ -10,5 +10,9 @@
 - EventLoops
 - Accounts
 - Managers
+- Login server role
+- Game server role
+- TCP\WebSocket proto
+- Scaling
 - etc
   
