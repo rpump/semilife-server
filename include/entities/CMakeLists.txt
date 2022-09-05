@@ -1,0 +1,2 @@
+add_library(semilife_server_entities INTERFACE)
+add_library(semilife_server::entities ALIAS semilife_server_entities)

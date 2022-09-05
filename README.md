@@ -1,5 +1,9 @@
 # semilife-server
 
+# DONE
+- Entities
+  - Machine (status: draft)
+
 # TODO
 
 - Entities

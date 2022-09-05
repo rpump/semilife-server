@@ -1,5 +1,6 @@
 [requires]
 boost/1.79.0
+eigen/3.4.0
 
 [generators]
 cmake_find_package
@@ -8,3 +9,4 @@ cmake_paths
 [imports]
 bin, *.dll -> ./bin
 lib, *.dylib* -> ./bin
+

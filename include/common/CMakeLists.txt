@@ -1,0 +1,2 @@
+add_library(semilife_server_common INTERFACE)
+add_library(semilife_server::common ALIAS semilife_server_common)
