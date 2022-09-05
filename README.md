@@ -3,6 +3,11 @@
 # DONE
 - Entities
   - Machine (status: draft)
+- Managers
+  - MachineManager (status: draft)
+- Common types
+  - Coord
+  - Velocity
 
 # TODO
 

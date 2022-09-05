@@ -1,0 +1,2 @@
+add_library(semilife_server_managers INTERFACE)
+add_library(semilife_server::managers ALIAS semilife_server_managers)
