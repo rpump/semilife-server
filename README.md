@@ -29,14 +29,25 @@
 
 ## BUILD
 
+### PREREQUISITES
+
+- CMake (https://cmake.org/download/)
+- Conan (https://conan.io/downloads.html)
+- ninja (https://ninja-build.org/)
+- gcc\clang etc
+- git
+
+### BUILD PROCESS
+
+Clone the repo:
 ```shell
-pip install conan
 git clone https://github.com/rpump/semilife-server.git
 cd semilife-server
-mkdir build
-cd build
-conan install --build missing ..
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build . --config Release
+```
+
+Create a build dir & build:
+```shell
+mkdir build && cd build && conan install --build missing ..
+cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build . --config Release
 ```
   

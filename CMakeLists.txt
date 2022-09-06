@@ -18,3 +18,8 @@ target_link_libraries(semilife_server PRIVATE Eigen3::Eigen3)
 target_include_directories(semilife_server PRIVATE "$<BUILD_INTERFACE:${CMAKE_CURRENT_LIST_DIR}/include>"
         "$<INSTALL_INTERFACE:${CMAKE_INSTALL_INCLUDEDIR}>")
 
+if (NOT MSVC)
+    find_package(Threads)
+    target_link_libraries(semilife_server PUBLIC Threads::Threads)
+endif ()
+
