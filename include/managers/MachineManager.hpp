@@ -13,14 +13,38 @@ namespace sl {
      * if the user has gone offline.
      */
     struct MachineManager {
+        bool loadMachine(Id) {
+            return false;
+        }
+
+        bool storeMachine(Id) {
+            return false;
+        }
+
         Id createMachine() {
             return -1;
         }
 
         bool deleteMachine(Id) {
-            false;
+            return false;
         }
 
+        bool moveMachine(Id, Velocity) {
+            return false;
+        }
 
+        bool teleportMachine(Id, Coord) {
+            return false;
+        }
+
+        // Long-term "AI" command
+        bool moveMachineTo(Id, Coord) {
+            return false;
+        }
+
+        // Long-term command
+        bool runMachineScript(Id, Id /* script Id */) {
+            return false;
+        }
     };
 }
